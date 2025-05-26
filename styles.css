@@ -1,0 +1,28 @@
+
+  body {
+    background-color: #000;
+    color: white; /* text readable rahe */
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 6px;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+
+  html {
+    scrollbar-color: #fff #000;
+    scrollbar-width: thin;
+  }
+
